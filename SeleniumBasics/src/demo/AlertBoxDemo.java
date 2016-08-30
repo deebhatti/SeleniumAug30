@@ -12,6 +12,8 @@ public class AlertBoxDemo {
 		System.setProperty("webdriver.ie.driver", "C:\\Webdrivers\\IEDriverServer_Win32_2.48.0\\IEDriverServer.exe");
 		WebDriver driver = new InternetExplorerDriver();
 		
+		//Adding a comment here so as to see the changes in Central Repo
+		
 		//WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
